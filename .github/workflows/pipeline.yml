@@ -38,4 +38,4 @@ jobs:
 
       - name: Docker push
         run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/fastapi-demo:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/fastapi-demo:latest
