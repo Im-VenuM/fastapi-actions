@@ -1,0 +1,9 @@
+image:
+  repository: vivek033/fastapi-demo
+  tag: latest
+
+replicaCount: 3
+
+service:
+  type: NodePort
+  port: 80
