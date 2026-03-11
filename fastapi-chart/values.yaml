@@ -1,9 +1,11 @@
+replicaCount: 3
+
 image:
   repository: vivek033/fastapi-demo
   tag: latest
-
-replicaCount: 3
+  pullPolicy: IfNotPresent
 
 service:
   type: NodePort
   port: 80
+  targetPort: 8000
