@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: vivek033/fastapi-demo
-  tag: latest
+  tag: 9ae508dc0f1a7b18dcef2fff0cd68e7bcec636d7
   pullPolicy: IfNotPresent
 
 service:
